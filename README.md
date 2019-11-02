@@ -48,5 +48,5 @@ az group deployment create --resource-group Learn-ARM --template-file 'C:\Users\
 Azure DevOps Commands
 ---------------
 ```
-az vm show --resource-group Demo --name ARMDEMO-VM --query hardwareProfile.vmSize --output table
+az vm show --resource-group Learn-ARM --name Learn-ARM-VM --query hardwareProfile.vmSize --output table
 ```
