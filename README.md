@@ -4,9 +4,9 @@ Azure Workshop "ARM Templates"
 ---------------
 Downloads
 ---------------
-https://code.visualstudio.com/
-https://git-scm.com/
-https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
+[VS Code](https://code.visualstudio.com/)
+[Git] (https://git-scm.com/)
+[Azure CLI] (https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
 ---------------
 Commands
 ---------------
