@@ -44,3 +44,9 @@ az group deployment create --resource-group Learn-ARM --template-file 'C:\Users\
 az group deployment validate --resource-group Learn-ARM --template-file 'C:\Users\azureadmin\Desktop\Demo.json' --parameters 'C:\Users\azureadmin\Desktop\Demo.parameters.json'
 az group deployment create --resource-group Learn-ARM --template-file 'C:\Users\azureadmin\Desktop\Demo.json' --parameters 'C:\Users\azureadmin\Desktop\Demo.parameters.json'
 ```
+
+Azure DevOps Commands
+---------------
+```
+az vm show --resource-group Demo --name ARMDEMO-VM --query hardwareProfile.vmSize --output table
+```
