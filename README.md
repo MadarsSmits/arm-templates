@@ -1,14 +1,14 @@
 # arm-templates
 Azure Workshop "ARM Templates"
-
 ---------------
+
 Downloads
 ---------------
-\[VS Code](https://code.visualstudio.com/)
+[VS Code](https://code.visualstudio.com/)\
+[Git](https://git-scm.com/)\
+[Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
 
-\[Git](https://git-scm.com/)
 
-\[Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
 ---------------
 Commands
 ---------------
