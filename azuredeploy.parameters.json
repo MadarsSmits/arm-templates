@@ -9,7 +9,7 @@
             "value": "AzureAdmin1234!"
         },
         "dnsLabelPrefix": {
-            "value": "madarsvm"
+            "value": "*IZMAINI_MANI*"
         }
     }
 }

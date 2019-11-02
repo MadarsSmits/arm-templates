@@ -15,7 +15,7 @@
         },
         "vmName": {
             "type": "string",
-            "defaultValue": "ARMDEMO-VM"
+            "defaultValue": "Learn-ARM-VM"
         },
         "windowsOSVersion": {
             "type": "string",
@@ -34,7 +34,7 @@
     },
 
     "variables": {
-        "vmStorageAccount": "[concat(uniquestring(subscription().id), '0armdemo')]",
+        "vmStorageAccount": "[concat(uniquestring(subscription().id), 'learnarm')]",
         "vmPublicIP": "[concat(parameters('vmName'), '-PublicIP')]",
         "vmVNET": "[concat(parameters('vmName'), '-VNET')]",
         "vmVNETSubnet": "[concat(parameters('vmName'), '-SUBNET')]",
@@ -47,7 +47,7 @@
             "apiVersion": "2015-06-15",
             "location": "[parameters('location')]",
             "properties": {
-                "accountType": "Standard_LRS"
+                "accountType": "Premium_LRS"
             }
         },
         {
@@ -70,14 +70,14 @@
             "properties": {
                 "addressSpace": {
                     "addressPrefixes": [
-                        "10.0.0.0/16"
+                        "15.0.0.0/16"
                     ]
                 },
                 "subnets": [
                     {
                         "name": "[variables('vmVNETSubnet')]",
                         "properties": {
-                            "addressPrefix": "10.0.0.0/24"
+                            "addressPrefix": "15.0.0.0/24"
                         }
                     }
                 ]
@@ -120,7 +120,7 @@
             ],
             "properties": {
                 "hardwareProfile": {
-                    "vmSize": "Standard_A2"
+                    "vmSize": "Standard_A4_v2"
                 },
                 "osProfile": {
                     "computerName": "[parameters('vmName')]",
@@ -146,11 +146,6 @@
                             "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('vmNIC'))]"
                         }
                     ]
-                },
-                "diagnosticsProfile": {
-                    "bootDiagnostics": {
-                        "enabled": false
-                    }
                 }
             }
         }
