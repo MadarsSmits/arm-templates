@@ -7,6 +7,7 @@ Downloads
 [VS Code](https://aka.ms/win32-x64-user-stable)\
 [Git](https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-64-bit.exe)\
 [Azure CLI](https://aka.ms/installazurecliwindows)
+[Azure Quick Start Templates](https://github.com/Azure/azure-quickstart-templates)\
 
 Paths
 ---------------
