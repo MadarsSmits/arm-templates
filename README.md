@@ -51,4 +51,3 @@ Azure DevOps Commands
 ```
 az vm show --resource-group Learn-ARM --name Learn-ARM-VM --query hardwareProfile.vmSize --output table
 ```
-TESTS
